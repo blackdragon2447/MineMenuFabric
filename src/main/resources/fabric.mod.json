@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "minemenufabric",
+  "version": "${version}",
+  "name": "MineMenuFabric",
+  "description": "MineMenu for fabric",
+  "authors": [
+    "UltraBlackLinux"
+  ],
+  "contributors": [
+    "Quentiiiin",
+    "Mari023",
+    "Redo11"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/minemenufabric",
+    "issues": "https://github.com/UltraBlackLinux/MineMenuFabric/issues#oh-no-not-again"
+  },
+  "license": "MIT",
+  "icon": "assets/minemenufabric/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.ultrablacklinux.minemenufabric.client.MineMenuFabricClient"
+    ],
+    "modmenu": [
+      "me.ultrablacklinux.minemenufabric.client.config.modmenu.ModMenuEntry"
+    ]
+  },
+  "mixins": [
+    "MineMenuFabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": ">=1.17",
+    "cloth-config2": ">=5.0.0",
+    "java": ">=16"
+  },
+  "custom": {
+    "modmenu": [
+      "me.ultrablacklinux.minemenufabric.config.config."
+    ]
+  }
+}

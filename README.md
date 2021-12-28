@@ -5,7 +5,7 @@
 
 
 # NOTICE
-**Developement of this mod has stopped. I neither have time to work on this mod and nor do I have the motivation to work with Java anymore. Feel free to fork this, it's now abandoned. It's been a great time.**
+**This is a fork of the project by UltraBlackLinux, this is currently a personal project, would it seem that a lot of people are interested in using this mod i am willing to maintain it.**
 
 # MineMenu(for)Fabric
 
